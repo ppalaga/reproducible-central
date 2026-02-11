@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jakarta Expression Language API
+group-id=jakarta.el
+artifact-id=jakarta.el-api
+version=6.0.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/eclipse-ee4j/el-ri.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.18
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.18.8-200.fc43.x86_64
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=jakarta.el
+outputs.0.filename=jakarta.el-api-6.0.1.pom
+outputs.0.length=11956
+outputs.0.checksums.sha512=655f80116179ecb17d317e7fddf01b462666fe79b819d65b7556f211020090a9b3c4c04572160888259aebf6e67a681437254cf3066b13bab20e63cc51f737ac
+
+outputs.1.groupId=jakarta.el
+outputs.1.filename=jakarta.el-api-6.0.1.jar
+outputs.1.length=93433
+outputs.1.checksums.sha512=48c7b026b1a61ad2e036001e462b602aa11af9a15fb8a0093b0afab745ce525ac698d489144fbbfd6f6b928b104bc74f549b9429e588cbf3944e5cce85108492
+
+outputs.2.groupId=jakarta.el
+outputs.2.filename=jakarta.el-api-6.0.1-cyclonedx.xml
+outputs.2.length=2922
+outputs.2.checksums.sha512=d690356419521e7de7d4eef4ffec136697b264d030a8640cce70f5b5e263729177d961f56ab850d942c95b680fda8c16d77682dcd9499fe75782e72fed30cca8
+
+outputs.3.groupId=jakarta.el
+outputs.3.filename=jakarta.el-api-6.0.1-cyclonedx.json
+outputs.3.length=3433
+outputs.3.checksums.sha512=b15b67579c698d8cbc460c68957d8112ad8643181d07baf6a13ef9964796ce687ce8541abb21de604958324ec8b549999a595a63229974e3f79e0ec456515bcb
+
+outputs.4.groupId=jakarta.el
+outputs.4.filename=jakarta.el-api-6.0.1-sources.jar
+outputs.4.length=112058
+outputs.4.checksums.sha512=f449deeaf3ee2005b874ff9a29de47966e7ef1e6f08a38db66d9ae8f73acc9242d153c239903528cb37a2f6ed46db7e73baf566c1a279e20f6eaa69a134c6199
