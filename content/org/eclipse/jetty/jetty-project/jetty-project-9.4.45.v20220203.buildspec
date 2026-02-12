@@ -1,0 +1,18 @@
+groupId=org.eclipse.jetty
+artifactId=jetty-project
+display=${groupId}:${artifactId}
+version=9.4.45.v20220203
+
+gitRepo=https://github.com/eclipse/jetty.project.git
+gitTag=jetty-${version}
+
+tool=mvn-3.9.3
+jdk=11
+newline=lf
+umask=022
+
+command="mvn -Peclipse-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
