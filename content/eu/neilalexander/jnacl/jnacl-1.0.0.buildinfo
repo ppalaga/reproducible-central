@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=eu.neilalexander:jnacl
+group-id=eu.neilalexander
+artifact-id=jnacl
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:neilalexander/jnacl.git
+source.scm.tag=v1.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_482
+java.vendor=Private Build
+os.name=Linux
+os.version=6.18.8-200.fc43.x86_64
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=eu.neilalexander
+outputs.0.filename=jnacl-1.0.0.pom
+outputs.0.length=6637
+outputs.0.checksums.sha512=b1ba7672812c2fbc9a7eaa1c6e4ff931b4b218ddbcdd6493200961f87f623e606b8b947803aa3916e7b24f2258b3501f4089ecb10bb2fc8bec77dcae81a3ab6a
+
+outputs.1.groupId=eu.neilalexander
+outputs.1.filename=jnacl-1.0.0.jar
+outputs.1.length=19907
+outputs.1.checksums.sha512=3442aabaf2291697364b6cb9b693d2a6bd126173e52a68560dea7be39d6839e4aaf92799a59e75e7da9832c5c2c7d3b46cdbd379881de423ddc72cba8ef56d26
+
+outputs.2.groupId=eu.neilalexander
+outputs.2.filename=jnacl-1.0.0-sources.jar
+outputs.2.length=18445
+outputs.2.checksums.sha512=a9ef95cc1267aaa25273fb0b583647417fda1993113f5c7bd237dab32c9a547f04b9ffb9fb6a39b8ffb117588cbf41161ff8d46aaf9126a36f86d73e2ba079e4

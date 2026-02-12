@@ -1,0 +1,19 @@
+groupId=eu.neilalexander
+artifactId=jnacl
+display=${groupId}:${artifactId}
+version=1.0.0
+
+gitRepo=https://github.com/neilalexander/jnacl.git
+gitTag=v1.0
+
+tool=mvn
+jdk=8
+newline=lf
+#umask=022
+
+execBefore="mvn org.codehaus.mojo:versions-maven-plugin:2.21.0:set -DnewVersion=1.0.0 && sed -i 's|>com.neilalexander<|>eu.neilalexander<|' pom.xml && sed -i 's|<tag>HEAD</tag>|<tag>v1.0.0</tag>|' pom.xml"
+command="mvn clean package -DskipTests"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
