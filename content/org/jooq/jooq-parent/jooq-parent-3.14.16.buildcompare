@@ -1,0 +1,27 @@
+version=3.14.16
+ok=11
+ko=12
+ignored=0
+okFiles="jooq-3.14.16.pom jooq-checker-3.14.16.pom jooq-meta-3.14.16.pom jooq-meta-extensions-3.14.16.pom jooq-meta-extensions-hibernate-3.14.16.pom jooq-meta-extensions-liquibase-3.14.16.pom jooq-codegen-3.14.16.pom jooq-codegen-maven-3.14.16.pom jooq-kotlin-3.14.16.pom jooq-scala_2.13-3.14.16.pom jooq-xtend-3.14.16.pom"
+koFiles="jooq-parent-3.14.16.pom jooq-3.14.16.jar jooq-checker-3.14.16.jar jooq-meta-3.14.16.jar jooq-meta-extensions-3.14.16.jar jooq-meta-extensions-hibernate-3.14.16.jar jooq-meta-extensions-liquibase-3.14.16.jar jooq-codegen-3.14.16.jar jooq-codegen-maven-3.14.16.jar jooq-kotlin-3.14.16.jar jooq-scala_2.13-3.14.16.jar jooq-xtend-3.14.16.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.jooq/jooq-parent-3.14.16.pom pom.xml
+# diffoscope target/reference/org.jooq/jooq-3.14.16.jar jOOQ/target/jooq-3.14.16.jar
+# diffoscope target/reference/org.jooq/jooq-checker-3.14.16.jar jOOQ-checker/target/jooq-checker-3.14.16.jar
+# diffoscope target/reference/org.jooq/jooq-meta-3.14.16.jar jOOQ-meta/target/jooq-meta-3.14.16.jar
+# diffoscope target/reference/org.jooq/jooq-meta-extensions-3.14.16.jar jOOQ-meta-extensions/target/jooq-meta-extensions-3.14.16.jar
+# diffoscope target/reference/org.jooq/jooq-meta-extensions-hibernate-3.14.16.jar jOOQ-meta-extensions-hibernate/target/jooq-meta-extensions-hibernate-3.14.16.jar
+# diffoscope target/reference/org.jooq/jooq-meta-extensions-liquibase-3.14.16.jar jOOQ-meta-extensions-liquibase/target/jooq-meta-extensions-liquibase-3.14.16.jar
+# diffoscope target/reference/org.jooq/jooq-codegen-3.14.16.jar jOOQ-codegen/target/jooq-codegen-3.14.16.jar
+# diffoscope target/reference/org.jooq/jooq-codegen-maven-3.14.16.jar jOOQ-codegen-maven/target/jooq-codegen-maven-3.14.16.jar
+# diffoscope target/reference/org.jooq/jooq-kotlin-3.14.16.jar jOOQ-kotlin/target/jooq-kotlin-3.14.16.jar
+# diffoscope target/reference/org.jooq/jooq-scala_2.13-3.14.16.jar jOOQ-scala_2.13/target/jooq-scala_2.13-3.14.16.jar
+# diffoscope target/reference/org.jooq/jooq-xtend-3.14.16.jar jOOQ-xtend/target/jooq-xtend-3.14.16.jar
+stabilize_ok=0
+stabilize_ko=11
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles="jooq-3.14.16.jar.stabilized jooq-checker-3.14.16.jar.stabilized jooq-meta-3.14.16.jar.stabilized jooq-meta-extensions-3.14.16.jar.stabilized jooq-meta-extensions-hibernate-3.14.16.jar.stabilized jooq-meta-extensions-liquibase-3.14.16.jar.stabilized jooq-codegen-3.14.16.jar.stabilized jooq-codegen-maven-3.14.16.jar.stabilized jooq-kotlin-3.14.16.jar.stabilized jooq-scala_2.13-3.14.16.jar.stabilized jooq-xtend-3.14.16.jar.stabilized"
+stabilize_ignoredFiles="jooq-parent-3.14.16.pom"
